@@ -17,8 +17,7 @@ def load_key():
     key = file.read()
     file.close()
     return key
-master_pwd = inputs("What is the master password? ",36)
-key = load_key() + master_pwd.encode()
+key = load_key()
 fer = Fernet(key)
 
 def view():
