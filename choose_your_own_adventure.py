@@ -25,7 +25,7 @@ elif answer == "right":
             'You cross the bridge and meet stranger. Will you talk to them?')
         if answer == 'yes':
             print(
-                f"{name}, you talked to a stranger and theyh give you a gold and you win!! ")
+                f"{name}, you talked to a stranger and they give you a gold and you win!! ")
         elif answer == "no":
             print("You ignored the stranger and they offended and you lose!!")
         else:
